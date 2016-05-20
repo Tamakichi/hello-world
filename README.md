@@ -38,5 +38,7 @@ IWij
 こんな感じ先頭に四つ以上の半角空白で等幅表示（ソースコード等）の  
 表示ができるらしい。
 
+![イチゴジャム](http://nuneno.cocolog-nifty.com/photos/uncategorized/2016/05/07/dscn5177.jpg "Ichigojam")
+
 
 
