@@ -2,7 +2,11 @@
 **マークダウン記法**の練習です。  
 
 下記のサイトを参考にしました。  
- [文章作成やメモ書きにも便利、Markdown記法](http://kojika17.com/2013/01/starting-markdown.html)
+ - [文章作成やメモ書きにも便利、Markdown記法](http://kojika17.com/2013/01/starting-markdown.html)
+
+GitHubの説明書としては、下記のサイトがよさそうです。  
+- [Git/GitHub 社内勉強会コンテンツ (最小限の手順まとめ)](http://qiita.com/exabugs/items/8d989def21b912afa109)
+
 
 見出しは文字の先頭に**#**,**##**, ... +空白文字で指定します。  
 # 見出し1
