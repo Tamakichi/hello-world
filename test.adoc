@@ -6,6 +6,7 @@
 Githubではレイアウトが思った通りになってくれない。 +
 マークダウンの空白文字2個よりも、 +
 asciidocの空白+の方が視覚的にわかりやすい。 +
+
 リンクが簡単、URLを書くだけ +
 https://github.com/Tamakichi/SD/blob/master/examples/ReadWrite/ReadWrite.ino
 
@@ -22,3 +23,47 @@ image:https://avatars1.githubusercontent.com/u/5078207?v=3&s=460[画像ファイ
 70 OUT P,HIGH
 80 WAIT 300
 90 NEXT I
+
+asciidocのリファレンスはここが良いみたい +
+http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+
+asciidocに関する情報 +
+https://blog.fenrir-inc.com/jp/2017/03/asciidocpreview.html
+
+[%hardbreaks]
+これで、フリーフォーマットになるようだ
+実際に試してみる。
+改行の空白+がなくても改行できた。
+
+警告のアイコンが表示できる
+
+NOTE:ノート
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
+
+^源河源吉^琉球ガラス
+
+include::https://raw.githubusercontent.com/asciidoctor/asciidoctor/master/README.adoc[]
+
+- [*] checked
+- [x] also checked
+- [ ] not checked
+- normal list item
+
+[cols="2", options="header"]
+|===
+|Application
+|Language
+
+|AsciiDoc
+|Python
+
+|Asciidoctor
+|Ruby
+|===
