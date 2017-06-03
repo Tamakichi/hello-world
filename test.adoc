@@ -1,0 +1,24 @@
+= asciidocの方が楽かも =
+
+== まずはたお試し ==
+
+マークダウンでドキュメントを書いていたけど、 +
+Githubではレイアウトが思った通りになってくれない。 +
+マークダウンの空白文字2個よりも、 +
+asciidocの空白+の方が視覚的にわかりやすい。 +
+リンクが簡単、URLを書くだけ +
+https://github.com/Tamakichi/SD/blob/master/examples/ReadWrite/ReadWrite.ino
+
+画像は、 +
+image:https://avatars1.githubusercontent.com/u/5078207?v=3&s=460[画像ファイル]
+
+ サンプルソース
+10 P=PC13
+20 GPIO P,OUTPUT
+30 OUT P,HIGH
+40 FOR I=1 TO 10
+50 OUT P,LOW
+60 WAIT 300
+70 OUT P,HIGH
+80 WAIT 300
+90 NEXT I
